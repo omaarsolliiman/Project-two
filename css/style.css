@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 40vh;
+  justify-content: space-around;
+  align-items: center;
+}
+.set {
+  margin: 50px 0;
+  background: #ebebeb;
+  width: 375px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  justify-content: space-evenly;
+}
+
+
+#taskInput {
+  padding: 5px 15px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  width: 60%;
+  font-weight: 500;
+  border-radius: 8px;
+  color: #333;
+}
+
+#addTaskButton {
+  padding: 8px 15px;
+  font-size: 16px;
+  background-color: #e16259;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s ease-in;
+}
+
+#addTaskButton:hover {
+  background-color: #E4483D;
+  transform: scale(1.05);
+  box-shadow: 1px 1px 25px 1px #00000035;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 8px 20px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  background: #ebebeb;
+  height: 100px;
+  width: 375px;
+  border-radius: 20px;
+  align-items: center;
+  margin: 20px 0;
+  color: #333;
+}
+
+li span {
+  flex-grow: 1;
+}
+
+.editTaskButton, .deleteTaskButton {
+  padding: 4px 8px;
+  font-size: 16px;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border-radius: 8px
+}
+
+.editTaskButton {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  margin-right: 10px;
+}
+
+.editTaskButton:hover {
+  background-color: #006B9F;
+}
+
+.deleteTaskButton {
+  background-color: #f44336;
+  color: white;
+  border: none;
+}
+
+.deleteTaskButton:hover {
+  background-color: #d32f2f;
+}
+input,
+div,
+span,
+a,
+img,
+p {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
